@@ -8,7 +8,10 @@
 */
 
 /* Reset */
+body{
 
+	background-image: url("images/banner3.jpg");
+}
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -1590,7 +1593,7 @@
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background-image: #f3f3f3 url("images/overlay.png");
 				color: #484d55;
 			}
 
@@ -1599,7 +1602,7 @@
 			}
 
 	#header-wrapper {
-		background: url("../../images/banner.jpg") center center;
+		background: url("../../images/banner3.jpg") center center;
 		background-size: cover;
 	}
 
@@ -2360,9 +2363,9 @@
 
 		/* Feature List */
 
-			.feature-list section {
+			/*.feature-list section {
 				border-top: solid 1px #eee;
-			}
+			}*/
 
 			.feature-list > div > div:first-child > div:first-child > section {
 				border-top: 0;
@@ -2474,7 +2477,8 @@
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: rgba(92, 95, 103, 0.75);
+						
+						: rgba(92, 95, 103, 0.75);
 					}
 
 			#navPanel {
